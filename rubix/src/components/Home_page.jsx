@@ -90,8 +90,8 @@ const Home_page = () => {
                     <div className='mt-3 flex justify-center items-center '>
                         <p className='font text-sm font-bold text-[#444444] hover:text-[#bd9b4c]'>Turning Table</p>
                         <div className='flex text-xs '>
-                            <p className='mr-2 line-through text-gray-400'>$57.00</p>
-                            <p className='text-[#bd9b4c]'>$52.00</p>
+                            {/* <p className='mr-2 line-through text-gray-400'>$57.00</p> */}
+                            {/* <p className='text-[#bd9b4c]'>$52.00</p> */}
                         </div>
                     </div>
 
