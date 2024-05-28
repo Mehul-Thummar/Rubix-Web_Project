@@ -50,50 +50,54 @@ const Home_page = () => {
 
                     {/* ------------------- Section-2 ------------------- */}
 
-                    <div className='flex justify-center items-center '>
-                        <div className='w-64 h-72 bg-gray-100 group '>
-                            <div className=''>
-                                <div className='flex justify-between p-5'>
-                                    <div className=' rounded bg-[#bd9b4c]  w-12 h-6 flex justify-center items-center'>
-                                        <p className=' font-bold text-sm text-white'>Sale!</p>
+                    <div className=''>
+                        <div className='flex justify-center items-center '>
+                            <div className='w-64 h-72 bg-gray-100 group '>
+                                <div className='relative'>
+                                    <div className='absolute'>
+                                        <img className='' src="http://wordpress.blueskytechco.net/rubix/wp-content/uploads/2020/12/30_1.jpg" alt="" />
                                     </div>
-                                    <div className='group-hover:block hidden '>
-                                        <div className='size-10 bg-white mb-3 flex justify-center items-center'>
-                                            <CiHeart className='size-6' />
+                                    <div className='absolute w-full h-full'>
+                                        <div className='flex justify-between p-5 '>
+                                            <div className=' rounded bg-[#bd9b4c]  w-12 h-6 flex justify-center items-center'>
+                                                <p className=' font-bold text-sm text-white'>Sale!</p>
+                                            </div>
+                                            <div className='group-hover:block hidden'>
+                                                <div className='size-10 bg-white mb-3 flex justify-center items-center'>
+                                                    <CiHeart className='size-6' />
+                                                </div>
+                                                <div className='size-10  bg-white mb-3 flex justify-center items-center'>
+                                                    <SlEqualizer className='size-4' />
+                                                </div>
+                                                <div className='size-10  bg-white mb-3 flex justify-center items-center'>
+                                                    <IoEyeOutline className='size-5' />
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div className='size-10  bg-white mb-3 flex justify-center items-center'>
-                                            <SlEqualizer className='size-4' />
-                                        </div>
-                                        <div className='size-10  bg-white mb-3 flex justify-center items-center'>
-                                            <IoEyeOutline className='size-5' />
+                                        <div className='group-hover:block hidden '>
+                                            <div className='flex justify-center items-end text-center '>
+                                                <div className='flex justify-center items-center text-white bg-black hover:bg-[#bd9b4c] font-bold  rounded text-sm w-[85%] h-10'>
+                                                    <SlHandbag className='' />
+                                                    <button type="button" className='ml-2'>Add to Card</button>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div className='group-hover:block hidden'>
-                                    <div className='flex justify-center text-center'>
-                                        <div className='flex justify-center items-center text-white bg-black hover:bg-[#bd9b4c] font-bold  rounded text-sm w-[85%] h-10'>
-                                            <SlHandbag className='' />
-                                            <button type="button" className='ml-2'>Add to Card</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className=''>
-                                <img className='' src="http://wordpress.blueskytechco.net/rubix/wp-content/uploads/2020/12/30_1.jpg" alt="" />
-                            </div>
-                            <div className='mt-3'>
-                                <p className='font text-sm font-bold text-[#444444] hover:text-[#bd9b4c]'>Turning Table</p>
-                                <div className='flex text-xs '>
-                                    <p className='mr-2 line-through text-gray-400'>$57.00</p>
-                                    <p className='text-[#bd9b4c]'>$52.00</p>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <div className='mt-3 flex justify-center items-center '>
+                        <p className='font text-sm font-bold text-[#444444] hover:text-[#bd9b4c]'>Turning Table</p>
+                        <div className='flex text-xs '>
+                            <p className='mr-2 line-through text-gray-400'>$57.00</p>
+                            <p className='text-[#bd9b4c]'>$52.00</p>
+                        </div>
+                    </div>
 
                     {/* ------------------- Section-3 ------------------- */}
-                    <div className='flex justify-center items-center '>
-                        <div className=' bg-black'>
+                    <div className='flex justify-center items-center'>
+                        <div className='w-[40%] h-[40%] bg-black'>
                             <div className=' '>
 
                             </div>
