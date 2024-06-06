@@ -10,7 +10,7 @@ import image41 from "../assets/asset 41.png";
 
 const Footer = () => {
     return (
-        <div>
+        <div >
             <div className='w-screen h-96 border border-gray-600 bg-black p-16 flex justify-around'>
                 <div className='flex p-5 w-56 h-64 '>
                     <div>

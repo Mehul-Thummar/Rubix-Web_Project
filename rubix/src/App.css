@@ -1,3 +1,83 @@
+/* ************** header line css ************** */
+
+.line {
+    width: 1280px;
+    height: 5px;
+    background-color: #c4b9b9;
+    transform-origin: left;
+    animation: grow 4s forwards infinite;
+}
+
+@keyframes grow {
+    0% {
+        transform: scaleX(0.1);
+    }
+
+    100% {
+        transform: scaleX(1.2);
+    }
+}
+
+/* ************** header slide css ************** */
+
+.textmain {
+    animation: text 12s linear infinite;
+    transform: translateX(150px);
+}
+
+@keyframes text {
+    10% {
+        transform: translateX(0px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+button span:hover {
+    color: #ba933e;
+    background-color: #ba933e !important;
+}
+
+.textmain1 {
+    animation-delay: 0s;
+}
+
+.textmain2 {
+    animation-delay: 4s;
+}
+
+.textmain3 {
+    animation-delay: 8s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ************** card border css ************** */
 
 .image-container {
@@ -25,6 +105,14 @@
 
 .image-container:hover::after {
     border-color: rgba(35, 33, 33, 0.267);
+
+}
+
+/* ************** newsletter ************** */
+
+.newsletter {
+    background-color: rgba(255, 255, 255, 0.789);
+    /* background-color: rgba(35, 33, 33, 0.267); */
 
 }
 
@@ -82,3 +170,4 @@
     height: 50px;
     margin: 0 40px;
 } */
+

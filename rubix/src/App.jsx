@@ -10,7 +10,7 @@ function App() {
   return (
     <>
 
-      {/* <Home_page /> */}
+      <Home_page />
       {/* <Footer /> */}
 
     </>
