@@ -8,11 +8,11 @@ const Section_3 = () => {
         <div>
             {/* ------------------- Section-3 ------------------- */}
 
-            <div className='flex justify-center items-center h-[442px] bg-[#f5f2eb]'>
-                <div className='relative'>
-                    <img className=' h-[442px] border border-black' src={image47} alt="" />
+            <div className='flex justify-center items-center h-[442px] bg-[#f5f2eb] mt-16'>
+                <div className='relative '>
+                    <img className=' h-[442px] ' src={image47} alt="" />
                 </div>
-                <div className='absolute'>
+                <div className='absolute ml-96'>
                     <div className='flex '>
                         <p className='font-bold text-xl text-gray-600 '>Quick parcel delivery,</p>
                         <p className='font-bold text-xl text-[#bd9b4c] ml-1'>from$25</p>

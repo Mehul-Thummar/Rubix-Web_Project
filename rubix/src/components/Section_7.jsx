@@ -1,44 +1,37 @@
 import React from 'react'
-import image34 from "../assets/asset 34.jpeg";
-import image35 from "../assets/asset 35.jpeg";
-import image36 from "../assets/asset 36.jpeg";
-import image37 from "../assets/asset 37.jpeg";
-import image38 from "../assets/asset 38.jpeg";
-import image39 from "../assets/asset 39.jpeg";
+import image28 from "../assets/asset 28.jpeg";
+import image29 from "../assets/asset 29.jpeg";
+import image30 from "../assets/asset 30.jpeg";
+import image31 from "../assets/asset 31.jpeg";
+import image32 from "../assets/asset 32.jpeg";
+import image33 from "../assets/asset 33.jpeg";
 
-
-const Section_7 = () => {
+const Section_6 = () => {
     return (
         <div>
 
-            {/* ------------------- Section-7 ------------------- */}
+            {/* ------------------- Section-6 ------------------- */}
 
-            <div className='flex justify-center mt-14 h-80 '>
-                <div>
-                    <div className='flex justify-center items-center text-center'>
-                        <div>
-                            <p className='font-bold text-[28px] mb-2'>Follow us on Instagram</p>
-                            <p className=' mb-4'>@ Rubix Instagram</p>
+            <div className='flex justify-center mt-14 '>
+                <div className='w-[1340px] h-[226px] logos'>
+                    <div className='flex py-7 border-y-[1px] space-x-24 justify-evenly logos-slide'>
+                        <div className=''>
+                            <img className='w-[130px]' src={image28} alt="" />
                         </div>
-                    </div>
-                    <div className='flex justify-evenly'>
-                        <div className='hover:brightness-105 hover:duration-1000 hover:ease-linear'>
-                            <img className='size-[209px] p-4' src={image34} alt="" />
+                        <div className=''>
+                            <img className='w-[130px]' src={image29} alt="" />
                         </div>
-                        <div className='hover:brightness-105 hover:duration-1000 hover:ease-linear'>
-                            <img className='size-[209px] p-4 ' src={image35} alt="" />
+                        <div className=''>
+                            <img className='w-[130px]' src={image30} alt="" />
                         </div>
-                        <div className='hover:brightness-105 hover:duration-1000 hover:ease-linear'>
-                            <img className='size-[209px] p-4 ' src={image36} alt="" />
+                        <div className=''>
+                            <img className='w-[130px]' src={image31} alt="" />
                         </div>
-                        <div className='hover:brightness-105 hover:duration-1000 hover:ease-linear'>
-                            <img className='size-[209px] p-4 ' src={image37} alt="" />
+                        <div className=''>
+                            <img className='w-[130px]' src={image32} alt="" />
                         </div>
-                        <div className='hover:brightness-105 hover:duration-1000 hover:ease-linear'>
-                            <img className='size-[209px] p-4 ' src={image38} alt="" />
-                        </div>
-                        <div className='hover:brightness-105 hover:duration-1000 hover:ease-linear'>
-                            <img className='size-[209px] p-4 ' src={image39} alt="" />
+                        <div className=''>
+                            <img className='w-[130px]' src={image33} alt="" />
                         </div>
                     </div>
                 </div>
@@ -47,4 +40,4 @@ const Section_7 = () => {
     )
 }
 
-export default Section_7
+export default Section_6

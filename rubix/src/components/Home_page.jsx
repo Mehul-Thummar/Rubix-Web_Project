@@ -15,8 +15,8 @@ import Section_4 from './Section_4';
 import Section_5 from './Section_5';
 import Section_6 from './Section_6';
 import Section_7 from './Section_7';
+import Section_8 from './Section_8';
 import Footer from './Footer';
-
 
 const Home_page = () => {
     return (
@@ -126,6 +126,7 @@ const Home_page = () => {
             <Section_5 />
             <Section_6 />
             <Section_7 />
+            <Section_8 />
             <Footer />
         </div >
     )

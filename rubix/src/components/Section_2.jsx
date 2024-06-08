@@ -15,7 +15,7 @@ const Section_2 = () => {
 
             <div className='flex justify-center items-center mt-20 relative'>
                 {/* <div className=' absolute w-[660px] h-[410px] z-50 hover:border-white hover:border-2 '></div> */}
-                <div className=' '>
+                <div className=''>
                     <div className='w-[650px] h-[442px] image-container bg-gray-100 relative '>
                         <div className='absolute '>
                             <img className='w-[650px] h-[442px] image ' src={image45} alt="" />
