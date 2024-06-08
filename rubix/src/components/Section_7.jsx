@@ -6,7 +6,7 @@ import image31 from "../assets/asset 31.jpeg";
 import image32 from "../assets/asset 32.jpeg";
 import image33 from "../assets/asset 33.jpeg";
 
-const Section_6 = () => {
+const Section_7 = () => {
     return (
         <div>
 
@@ -40,4 +40,4 @@ const Section_6 = () => {
     )
 }
 
-export default Section_6
+export default Section_7
