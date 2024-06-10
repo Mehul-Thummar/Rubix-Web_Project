@@ -1,10 +1,5 @@
 import React from 'react'
-
 import { Carousel } from "flowbite-react";
-import { SlUser } from "react-icons/sl";
-import { CiHeart } from "react-icons/ci";
-import { IoSearchOutline } from "react-icons/io5";
-import { SlHandbag } from "react-icons/sl";
 import image55 from "../assets/asset 55.jpg";
 import image56 from "../assets/asset 56.jpg";
 import image57 from "../assets/asset 57.jpg";
@@ -18,40 +13,12 @@ import Section_7 from './Section_7';
 import Section_8 from './Section_8';
 import Footer from './Footer';
 
-const Home_page = () => {
+
+const Header = () => {
     return (
         <div>
             <div className='container'>
                 <div className='w-screen h-screen '>
-                    {/* ------------------- Nav bar ------------------- */}
-                    <div className='flex justify-between items-center px-6 h-20'>
-                        <div className='flex items-center '>
-                            <img className='h-6 pr-4 ' src="http://wordpress.blueskytechco.net/rubix/wp-content/uploads/2021/05/logo_x2.png" alt="" />
-                        </div>
-                        <div className='flex justify-center items-center'>
-                            <ul className='flex justify-center items-center'>
-                                <li><a className='px-5 hover:text-[#ba933e] ' href="">Home<i class="fa-solid fa-angle-down"></i></a></li>
-                                <li><a className='px-5  hover:text-[#ba933e]' href="">Shop<i class="fa-solid fa-angle-down"></i></a></li>
-                                <li><a className='px-5  hover:text-[#ba933e]' href="">Page<i class="fa-solid fa-angle-down"></i></a></li>
-                                <li><a className='px-5  hover:text-[#ba933e]' href="">Blog<i class="fa-solid fa-angle-down"></i></a></li>
-                            </ul>
-                            <div className='flex items-center px-5  '>
-                                <a className='px-2 hover:text-[#ba933e]' href="">Contact</a>
-                                <img className='size-3 ' src="https://static.thenounproject.com/png/2169315-200.png" alt="" />
-                            </div>
-                        </div>
-                        <div className='flex justify-center items-center '>
-                            <SlUser className='size-4 mx-2' />
-                            <p className=' mx-1 hover:text-[#ba933e]'>Login /</p>
-                            <p className=' mr-1 hover:text-[#ba933e]'>Register</p>
-                            <p className=' mx-5 hover:text-[#ba933e]'>|</p>
-                            <div className='flex justify-center items-center'>
-                                <CiHeart className=' size-6 mx-3 ' />
-                                <SlHandbag className=' size-5 mx-3' />
-                                <IoSearchOutline className=' size-6 mx-3' />
-                            </div>
-                        </div>
-                    </div>
 
                     {/* ------------------- HEADER ------------------- */}
 
@@ -128,8 +95,8 @@ const Home_page = () => {
             <Section_7 />
             <Section_8 />
             <Footer />
-        </div >
+        </div>
     )
 }
 
-export default Home_page
+export default Header

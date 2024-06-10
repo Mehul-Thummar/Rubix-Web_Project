@@ -1,7 +1,9 @@
 import { useState } from 'react'
 import './App.css'
-import Home_page from './components/Home_page'
-import Footer from './components/Footer'
+import Navbar from './components/Navbar'
+import Header from './components/Header'
+import Shop from './components/pages/Shop'
+import PauseOnHover from './components/PauseOnHover'
 
 
 function App() {
@@ -9,9 +11,8 @@ function App() {
 
   return (
     <>
-
-      <Home_page />
-      {/* <Footer /> */}
+      {/* <Shop /> */}
+      <PauseOnHover/>
 
     </>
   )

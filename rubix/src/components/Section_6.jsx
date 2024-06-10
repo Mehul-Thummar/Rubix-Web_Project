@@ -22,7 +22,7 @@ const Section_6 = () => {
                 </div>
                 <div className=' h-[546px] flex justify-center mt-5'>
 
-                    {/* ************** Card-2 ************** */}
+                    {/* ************** Card-1 ************** */}
 
                     <div className='relative '>
                         <div className='w-[502px] h-[338px]'>
