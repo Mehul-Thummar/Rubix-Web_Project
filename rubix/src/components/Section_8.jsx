@@ -13,7 +13,7 @@ const Section_8 = () => {
 
             {/* ------------------- Section-7 ------------------- */}
 
-            <div className='flex justify-center mt-14 h-80 '>
+            <div className='flex justify-center mt-10 h-80 '>
                 <div>
                     <div className='flex justify-center items-center text-center'>
                         <div>

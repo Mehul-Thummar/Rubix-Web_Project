@@ -1,7 +1,7 @@
 /* ************** header line css ************** */
 
 .line {
-    width: 1280px;
+    width: 1270px;
     height: 5px;
     background-color: #c4b9b9;
     transform-origin: left;
@@ -199,7 +199,3 @@ button span:hover {
     height: 50px;
     margin: 0 40px;
 } */
-
-
-
-
